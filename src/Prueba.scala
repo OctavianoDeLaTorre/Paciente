@@ -66,7 +66,7 @@ class Paciente(
 object Prueba {
   def main(args: Array[String]): Unit = {
     var p = new Paciente()
-    
+    println("Promedio bienestar: "+p.promedioBienestar)
     p.mostrarLista(p.obtenerMayores(), "===Temperatura Mayor===")
     p.mostrarLista(p.obtenerMenor(), "===Temperatura Menor===")
   }
